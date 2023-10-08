@@ -1,0 +1,65 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #181818;
+}
+
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
+button {
+  background-color: #242424;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.controlsContainer {
+  height: 50px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+input {
+  max-width: 100px;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.controlButton {
+  margin-left: 10px;
+  background-color: #aa304040;
+}
+.buttonOn {
+  background-color: #30aa40;
+}
+
+canvas {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  margin: 0 !important;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
